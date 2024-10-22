@@ -1,0 +1,122 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.Main-container{
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.header{
+  background-color: #435a64;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+i{
+  margin-left: 10px;
+}
+
+.WhatsApp-heading{
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+/* .content-container{
+  margin-left: 5px;
+  margin-right: 5px;
+} */
+
+
+.input{
+  
+  height: 30px;
+  margin-top: 1px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+  width: 100%;
+}
+
+.seperate-section{
+  display: flex;
+  justify-content:start;
+}
+.all{
+  background-color: #767c8c;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(34, 13, 13);
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+.img-content{
+ background-color: #435a64;
+ display: flex;
+ padding: 10px;
+ align-items: center;
+ width: 100%;
+}
+
+
+.con-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+}
+
+.name-number{
+  font-weight: bold;
+  margin-left: 20px;
+  color: white;
+}
+
+.fa{
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.href:hover{
+  background-color: rgb(13, 176, 40);
+  height: 20px;
+}
+
+.img-content:hover{
+  background-color: yellowgreen;
+  
+}
+
+.all:hover{
+  background-color:black;
+  color: white;
+  text-decoration: underline;
+}
+
+.input:hover{
+  text-shadow: 5px 5px 6px ;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+a{
+  text-decoration: none;
+}
